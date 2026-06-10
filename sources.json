@@ -1,0 +1,77 @@
+{
+  "twitter_accounts": [
+    { "username": "elonmusk",        "label": "Elon Musk",          "sectors": ["ai", "nasdaq"] },
+    { "username": "GRDecter",        "label": "Greg Decter",        "sectors": ["macro"] },
+    { "username": "KobeissiLetter",  "label": "The Kobeissi Letter","sectors": ["macro", "nasdaq"] },
+    { "username": "zerohedge",       "label": "Zero Hedge",         "sectors": ["macro", "gold"] },
+    { "username": "PeterSchiff",     "label": "Peter Schiff",       "sectors": ["gold", "macro"] },
+    { "username": "jimcramer",       "label": "Jim Cramer",         "sectors": ["nasdaq"] },
+    { "username": "SemiAnalysis",    "label": "SemiAnalysis",       "sectors": ["semi", "ai"] },
+    { "username": "dylan522p",       "label": "Dylan Patel",        "sectors": ["semi"] },
+    { "username": "benedictevans",   "label": "Benedict Evans",     "sectors": ["ai", "nasdaq"] },
+    { "username": "karpathy",        "label": "Andrej Karpathy",    "sectors": ["ai"] },
+    { "username": "sama",            "label": "Sam Altman",         "sectors": ["ai"] },
+    { "username": "gdb",             "label": "Greg Brockman",      "sectors": ["ai"] },
+    { "username": "FedGuy12",        "label": "Fed Guy",            "sectors": ["macro"] },
+    { "username": "NickTimiraos",    "label": "Nick Timiraos (WSJ)","sectors": ["macro"] }
+  ],
+
+  "rss_feeds": [
+    {
+      "url": "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^IXIC,^GSPC,GLD,SOXX&region=US&lang=en-US",
+      "label": "Yahoo Finance Headlines",
+      "sectors": ["nasdaq", "gold", "semi"]
+    },
+    {
+      "url": "https://feeds.reuters.com/reuters/businessNews",
+      "label": "Reuters Business",
+      "sectors": ["macro", "nasdaq"]
+    },
+    {
+      "url": "https://www.reutersagency.com/feed/?best-topics=tech&post_type=best",
+      "label": "Reuters Tech",
+      "sectors": ["ai", "semi"]
+    },
+    {
+      "url": "https://www.investing.com/rss/news_25.rss",
+      "label": "Investing.com Commodities",
+      "sectors": ["gold"]
+    },
+    {
+      "url": "https://feeds.feedburner.com/venturebeat/SZYF",
+      "label": "VentureBeat AI",
+      "sectors": ["ai"]
+    }
+  ],
+
+  "fred_series": [
+    { "id": "FEDFUNDS",   "label": "联邦基金利率",     "sectors": ["macro", "gold", "nasdaq"] },
+    { "id": "CPIAUCSL",   "label": "CPI（季调）",       "sectors": ["macro", "gold"] },
+    { "id": "UNRATE",     "label": "失业率",             "sectors": ["macro"] },
+    { "id": "DGS10",      "label": "10年期美债收益率",  "sectors": ["macro", "gold", "nasdaq"] },
+    { "id": "DTWEXBGS",   "label": "美联储宽口径美元指数","sectors": ["gold", "macro"] },
+    { "id": "VIXCLS",     "label": "VIX 恐慌指数",      "sectors": ["macro", "nasdaq"] },
+    { "id": "PAYEMS",     "label": "非农就业人数",       "sectors": ["macro"] }
+  ],
+
+  "market_tickers": [
+    { "symbol": "^IXIC",  "label": "纳斯达克综合指数", "sectors": ["nasdaq"] },
+    { "symbol": "^NDX",   "label": "纳斯达克100",       "sectors": ["nasdaq"] },
+    { "symbol": "^SOX",   "label": "费城半导体指数",    "sectors": ["semi"] },
+    { "symbol": "GLD",    "label": "黄金ETF (GLD)",     "sectors": ["gold"] },
+    { "symbol": "GC=F",   "label": "黄金期货",          "sectors": ["gold"] },
+    { "symbol": "SOXX",   "label": "半导体ETF (SOXX)",  "sectors": ["semi"] },
+    { "symbol": "BOTZ",   "label": "AI机器人ETF (BOTZ)","sectors": ["ai"] },
+    { "symbol": "NVDA",   "label": "英伟达",             "sectors": ["ai", "semi"] },
+    { "symbol": "TSMC",   "label": "台积电 ADR",         "sectors": ["semi"] },
+    { "symbol": "MSFT",   "label": "微软",               "sectors": ["ai", "nasdaq"] },
+    { "symbol": "DX-Y.NYB", "label": "美元指数(DXY)",    "sectors": ["gold", "macro"] }
+  ],
+
+  "settings": {
+    "twitter_tweets_per_account": 3,
+    "rss_items_per_feed": 5,
+    "fred_observation_count": 3,
+    "max_age_hours": 24
+  }
+}

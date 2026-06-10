@@ -1,0 +1,92 @@
+{
+  "sectors": {
+    "nasdaq": {
+      "name": "纳斯达克",
+      "name_en": "Nasdaq",
+      "icon": "📈",
+      "benchmark": "纳斯达克100",
+      "funds": [
+        {
+          "name": "华夏纳斯达克100ETF联接A",
+          "code": "008934",
+          "type": "QDII",
+          "primary": true
+        },
+        {
+          "name": "广发纳斯达克100联接A",
+          "code": "270042",
+          "type": "QDII",
+          "primary": false,
+          "note": "备选，额度紧张时用"
+        }
+      ]
+    },
+    "gold": {
+      "name": "黄金",
+      "name_en": "Gold",
+      "icon": "🪙",
+      "benchmark": "COMEX黄金期货",
+      "funds": [
+        {
+          "name": "华安黄金ETF联接A",
+          "code": "000216",
+          "type": "商品",
+          "primary": true
+        },
+        {
+          "name": "易方达黄金ETF联接A",
+          "code": "000307",
+          "type": "商品",
+          "primary": false
+        }
+      ]
+    },
+    "semi": {
+      "name": "半导体",
+      "name_en": "Semiconductors",
+      "icon": "⚡",
+      "benchmark": "费城半导体指数",
+      "funds": [
+        {
+          "name": "广发中证半导体ETF联接A",
+          "code": "014473",
+          "type": "指数",
+          "primary": true
+        },
+        {
+          "name": "国联安中证全指半导体",
+          "code": "003986",
+          "type": "指数",
+          "primary": false
+        }
+      ]
+    },
+    "ai": {
+      "name": "人工智能",
+      "name_en": "AI",
+      "icon": "🤖",
+      "benchmark": "中证人工智能主题指数",
+      "funds": [
+        {
+          "name": "易方达中证人工智能A",
+          "code": "007419",
+          "type": "指数",
+          "primary": true
+        },
+        {
+          "name": "华夏中证人工智能ETF联接A",
+          "code": "012994",
+          "type": "指数",
+          "primary": false
+        }
+      ]
+    }
+  },
+
+  "trading_notes": {
+    "qdii_quota": "QDII基金有额度限制，热门时段可能暂停申购，建议提前确认",
+    "settlement": "T+1 确认，周五信号建议周一操作",
+    "min_hold_days": 7,
+    "suggested_rebalance": "每月不超过2次操作，避免频繁手续费"
+  }
+}
