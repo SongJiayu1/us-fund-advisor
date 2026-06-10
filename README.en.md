@@ -1,5 +1,7 @@
 # US Fund Advisor
 
+English | [中文](README.md)
+
 > Daily automated US stock macro data collection, AI-powered fund analysis, and Feishu/Lark push notifications.
 
 ## Features

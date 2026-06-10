@@ -1,5 +1,7 @@
 # US Fund Advisor
 
+[English](README.en.md) | 中文
+
 > 每日自动收集美股宏观数据，由 Claude AI 分析后生成基金操作建议，推送到飞书/ Lark。
 
 ## 功能
